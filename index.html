@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu Selektor - Tutorial </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="hero"> 
+<ul>
+    <li id="option1">SELECT BRAND</li>
+    <li id="option2">APPLE</li>
+    <li id="option3">SAMSUNG</li>
+    <li id="option4">XIAOMI</li>
+    <li id="option5">VIVO</li>
+    <li id="option6">OPPO</li>
+
+    <div id="selector">
+        <div id="shadow"></div>
+        <div id="selectorBtn"></div>
+    </div>
+</ul>
+<img src="riset.jpg" alt="" id="reset">
+
+</div>
+
+<script>
+
+    var option1 = document.getElementById("option1");
+    var option2 = document.getElementById("option2");
+    var option3 = document.getElementById("option3");
+    var option4 = document.getElementById("option4");
+    var option5 = document.getElementById("option5");
+    var option6 = document.getElementById("option6");
+
+    var selector = document.getElementById("selector");
+    var shadow = document.getElementById("shadow");
+    var selctBtn = document.getElementById("selctBtn");
+
+    var reset= document.getElementById("reset");
+
+
+
+
+    option1.onclick=function(){ 
+        selector.style.top= "6px";
+        shadow.style.background= "transparent";
+        selctBtn.style.borderRadius="5px";
+    }
+        
+    option2.onclick=function(){ 
+        selector.style.top= "88px";
+        shadow.style.background= "#81bfb9";
+        selctBtn.style.borderRadius="70px";
+    }
+
+    option3.onclick=function(){ 
+        selector.style.top= "170px";
+        shadow.style.background= "#81bfb9";
+        selctBtn.style.borderRadius="70px";
+    }
+        
+    option4.onclick=function(){ 
+        selector.style.top= "252px";
+        shadow.style.background= "#81bfb9";
+        selctBtn.style.borderRadius="70px";
+    }
+    option5.onclick=function(){ 
+        selector.style.top= "6px";
+        shadow.style.background= "#81bfb9";
+        selctBtn.style.borderRadius="70px";
+    }
+        
+    option6.onclick=function(){ 
+        selector.style.top= "416px";
+        shadow.style.background= "#81bfb9";
+        selctBtn.style.borderRadius="70px";
+    }
+        reset.onclick =function(){
+         selector.style.top= "6px";
+        shadow.style.background= "transparent";
+        selctBtn.style.borderRadius="5px";
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</script>
+
+
+
+
+
+
+</body>
+</html>
